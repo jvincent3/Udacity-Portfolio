@@ -49,6 +49,7 @@ hr {
 }
 .projects ul {
 	padding: 0;
+	list-style: none;
 }
 .projects li {
 	-webkit-box-flex: 0;
@@ -72,7 +73,6 @@ hr {
 	flex-wrap: wrap;
 	margin-left: 0;
 	margin-right: 0;
-	list-style: none;
 }
 
 

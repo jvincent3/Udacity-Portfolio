@@ -39,7 +39,7 @@ hr {
 }
 .hero {
 	height: 300px;
-	background-image: url('images/hero-img.jpg');
+	background-image: url('assets/hero-img.jpg');
 	background-size: cover;
 }
 .featured__work {
@@ -54,6 +54,7 @@ hr {
 	-webkit-box-flex: 0;
     flex: 0 0 100%;
     max-width: 100%;
+    margin: auto;
 }
 .project__img {
 	width: 100%;
@@ -71,6 +72,7 @@ hr {
 	flex-wrap: wrap;
 	margin-left: 0;
 	margin-right: 0;
+	list-style: none;
 }
 
 

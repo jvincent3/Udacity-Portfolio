@@ -1,0 +1,65 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+hr {
+	border: 2px solid #7d97ad;
+}
+
+.header__inner {
+	display: inline-block;
+}
+
+.header__inner {
+	width: 100%;
+}
+.header__logo {
+	height: 74px;
+	width: 72px;
+}
+.title__container {
+	float:right;
+}
+.header__title, .header__subtitle {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.header__title, .header__subtitle, 
+.featured__work {
+	font-weight: lighter;
+}
+
+.header__title {
+	font-size: 64px;
+	color: #2d3c49;
+}
+.header__subtitle {
+	float: right;
+	color: #2d3c49;
+}
+.hero {
+	height: 500px;
+	background-image: url('images/hero-img.jpg');
+	background-size: cover;
+}
+.featured__work {
+	font-size: 32px;
+	margin-left: 10px;
+	color: #7d97ad;
+}
+.projects ul {
+	padding: 0;
+}
+.projects li {
+	float: left;
+	list-style: none;
+	padding-right: 20px;
+	width: 31%;
+}
+.project__img {
+	width: 100%;
+	height: 200px;
+}
+.project__info {
+	text-align: center;
+}

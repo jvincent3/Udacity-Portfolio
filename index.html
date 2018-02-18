@@ -1,68 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-	  <meta charset="UTF-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	  <title>Jvincent3 Portfolio</title>
-	  <link rel="stylesheet" href="css/bootstrap.min.css">
-	  <link rel="stylesheet" href="css/styles.css">
-	</head>
-	<body>
-		<div class="container">
-		<header class="row">
-			  <img class="header-logo col-2 col-md-1" src="https://cdn.worldvectorlogo.com/logos/udacity.svg" alt="">
-			  <div class="col-10 col-md-11">
-				<h1 class="header-title text-right">
-					John Vincent
-				</h1>
-				<h2 class="header-subtitle text-right">Front End Ninja</h2>
-			  </div>
-		</header>
 
-		<hr>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Jvincent3 Portfolio</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
 
-			<section class="hero">
-			  <img class="img-fluid" src="img/hero-img.jpg" alt="header image">
-			</section>
+<body>
+	<div class="container">
 
-			<section class="projects">
-			  <h2 class="section-title  mt-5 mb-5">Featured Work</h2>
-			    <div class="container">
-				  <ul class="row">
-				  	<li class="col-12 col-sm-6 col-md-6 col-lg-4">
-				  		<div class="card">
-						  <img class="card-img-top" src="img/coming-soon.jpg" alt="Card image cap">
-						  <div class="card-body">
-						  	<h3>Project name</h3>
-						   <p class="card-text">Duis aliquet vitae felis sed laoreet. Duis eget consectetur lectus.</p>
-						   <a href="#" class="btn btn-dark">View Project</a>
-	  						</div>
-						</div>
-				  	</li>
-				  	<li class="col-12 col-sm-6 col-md-6 col-lg-4">
-				  		<div class="card">
-						  <img class="card-img-top" src="img/coming-soon.jpg" alt="Card image cap">
-						  <div class="card-body">
-						  	<h3>Project name</h3>
-						   <p class="card-text">Duis aliquet vitae felis sed laoreet. Duis eget consectetur lectus.</p>
-						   <a href="#" class="btn btn-dark">View Project</a>
-	  						</div>
-						</div>
-				  	</li>
-				  	<li class="col-12 col-sm-6 col-md-6 col-lg-4">
-				  		<div class="card">
-						  <img class="card-img-top" src="img/coming-soon.jpg" alt="Card image cap">
-						  <div class="card-body">
-						  	<h3>Project name</h3>
-						   <p class="card-text">Duis aliquet vitae felis sed laoreet. Duis eget consectetur lectus.</p>
-						   <a href="#" class="btn btn-dark">View Project</a>
-	  						</div>
-						</div>
-				  	</li>
-				  </ul>
-			    </div>				
-			</section>
+		<!-- HEADER  CONTENT-->
+		<div class="row">
+			<header class="container">
+				<div class="row  pt-3 pb-3 mb-4 border-bottom">
+					<div clas="col-2 col-md-1">
+						<img class="header-logo" src="https://cdn.worldvectorlogo.com/logos/udacity.svg" alt="">
+					</div>
+					<div class="col-10 col-md-11">
+						<h1 class="header-title text-right">
+							John Vincent
+						</h1>
+						<h2 class="header-subtitle text-right">Front End Ninja</h2>
+					</div>
+				</div>
+			</header>
 		</div>
-	</body>
+
+		<!-- BODY SECTION -->
+		<section class="container-fluid">
+
+			<!-- HERO SECTION-->
+			<section class="row hero">
+				<div>
+					<img class="img-fluid" src="img/hero-img.jpg" alt="header image">
+				</div>
+			</section>
+
+			<!-- PROJECT SHOWCASE SECTION -->
+			<section class="projects row">
+				<!-- PROJECT TITLE -->
+				<div class="col-12">
+					<h2 class="section-title mt-5 mb-5">Featured Work</h2>
+				</div>
+
+				<!-- PROJECT CARDS -->
+				<div class="container">
+					<ul class="row">
+
+						<li class="col-12 col-sm-12 col-md-6 col-lg-4">
+							<div class="card">
+								<img class="card-img-top" src="img/coming-soon.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h3>Project name</h3>
+									<p class="card-text">Duis aliquet vitae felis sed laoreet. Duis eget consectetur lectus.</p>
+									<a href="#" class="btn btn-dark">View Project</a>
+								</div>
+							</div>
+						</li>
+
+						<li class="col-12 col-sm-12 col-md-6 col-lg-4">
+							<div class="card">
+								<img class="card-img-top" src="img/coming-soon.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h3>Project name</h3>
+									<p class="card-text">Duis aliquet vitae felis sed laoreet. Duis eget consectetur lectus.</p>
+									<a href="#" class="btn btn-dark">View Project</a>
+								</div>
+							</div>
+						</li>
+
+						<li class="col-12 col-sm-12 col-md-6 col-lg-4">
+							<div class="card">
+								<img class="card-img-top" src="img/coming-soon.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h3>Project name</h3>
+									<p class="card-text">Duis aliquet vitae felis sed laoreet. Duis eget consectetur lectus.</p>
+									<a href="#" class="btn btn-dark">View Project</a>
+								</div>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+
+			</section>
+
+		</section>
+	</div>
+</body>
+
 </html>

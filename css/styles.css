@@ -30,15 +30,19 @@ h2 {
 
 .header__inner {
 	width: 100%;
+	padding:0 15px;
 }
 
 .header__logo {
-	height: 74px;
-	width: 72px;
+	margin-left: 40%;
+	margin-top: 10px;
+	height: 54px;
+	
 }
 
-.title__container {
-	float:right;
+.title__container h1, 
+.title__container h2 {
+	text-align: center;
 }
 
 .header__title, .header__subtitle {
@@ -112,6 +116,9 @@ h2 {
 	font-size: 30px;
 	font-weight: lighter;
 }
+.projects .btn {
+	opacity: 0.9;
+}
 
 /*
 *
@@ -129,6 +136,24 @@ h2 {
 *Media Queries SECTION
 *
 */
+@media screen and (min-width: 340px) {
+	.header__logo {
+		margin-left: 0;
+	}
+	.title__container {
+		float: right;
+	}
+
+	.title__container h1, 
+	.title__container h2 {
+		text-align: right;
+	}
+
+	.header__subtitle {
+		text-align: center;
+	}
+
+}
 
 @media screen and (min-width: 576px) {
 	.header__title {
@@ -148,8 +173,3 @@ h2 {
 		font-size: 48px;
 	}
 }
-
-@media screen and (min-width: 992px) {
-
-}
-

@@ -1,0 +1,155 @@
+html, body {
+  height:100%;
+}
+
+body {
+	align-items:center;
+	max-width: 1024px;
+	margin: auto;
+	font-family: sans-serif;
+	color: #2d3c49;
+}
+
+hr {
+	border: 2px solid #7d97ad;
+}
+
+h2 {
+	margin: 0;
+}
+
+/*
+*
+*HEADER SECTION
+*
+*/
+
+.header__inner {
+	display: inline-block;
+}
+
+.header__inner {
+	width: 100%;
+}
+
+.header__logo {
+	height: 74px;
+	width: 72px;
+}
+
+.title__container {
+	float:right;
+}
+
+.header__title, .header__subtitle {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.header__title, .header__subtitle, 
+.featured__work {
+	font-weight: lighter;
+}
+
+.header__title {
+	font-size: 42px;
+}
+
+.header__subtitle {
+	text-align: end;
+}
+
+/*
+*
+*HERO SECTION
+*
+*/
+
+.hero img{
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+}
+
+.hero__text {
+	font-size: 48px;
+	padding: 86px;
+	color: #7d97ad;
+}
+
+/*
+*
+*PROJECT SECTION
+*
+*/
+
+.section__title {
+	font-size: 32px;
+	text-align: center;
+}
+
+.projects ul {
+	padding: 0;
+	list-style: none;
+}
+
+.projects li {
+	margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project__img {
+	width: 100%;
+	min-height: 270px;
+}
+
+.project__info {
+	text-align: center;
+}
+
+.project__name {
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+/*
+*
+*BOOTSTRAP EDITS
+*
+*/
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/*
+*
+*Media Queries SECTION
+*
+*/
+
+@media screen and (min-width: 576px) {
+	.header__title {
+		font-size: 64px;
+	}
+
+	.hero img{
+		height: 500px;
+	}
+
+	.hero__text {
+		font-size: 82px;
+		padding: 142px;
+	}
+
+	.section__title {
+		font-size: 48px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+
+}
+

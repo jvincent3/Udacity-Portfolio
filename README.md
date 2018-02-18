@@ -12,4 +12,4 @@ This Portfolio is a Project for every student of the Front-End Web Nano Degree S
   
 ### Mockup
 
-![Portfolio](https://github.com/jvincent3/Udacity-Portfolio/blob/master/assets/design-mockup-portfolio.png 'Portfolio Mockup')
+![Portfolio](https://github.com/jvincent3/Udacity-Portfolio/blob/master/img/design-mockup-portfolio.png 'Portfolio Mockup')
